@@ -1,0 +1,23 @@
+{
+    "[html]": {
+        "editor.tabSize": 4,                  // Set tab size to 4 spaces
+        "editor.insertSpaces": true,          // Use spaces instead of tabs
+        "editor.formatOnSave": true,          // Automatically format HTML files on save
+        "editor.wordWrap": "on",              // Enable word wrap for HTML files
+        "editor.autoClosingBrackets": "always", // Automatically close brackets
+        "editor.autoClosingQuotes": "always",  // Automatically close quotes
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": true, // Enable suggestions on trigger characters
+        "editor.suggest.insertMode": "replace",    // Suggestion insert mode
+        "files.autoSave": "afterDelay",        // Automatically save files after a delay
+        "files.autoSaveDelay": 1000,           // Delay for auto-save (in milliseconds)
+        "emmet.includeLanguages": {            // Enable Emmet for HTML files
+            "html": "html"
+        }
+    }
+}
+    
