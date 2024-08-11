@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+</head>
+
+<body>
+    <h1>Update Profile Picture</h1>
+
+    <input type="file" name="" id="image-file">
+    <h3>Your Profile Picture</h3>
+    <img src="" alt="">
+
+    <script>
+        // ----- Selecting Uploading Image -----
+        const imageFile = document.getElementById('image-file');
+
+        // ------- Image Conponent --------
+        const img = document.querySelector('img');
+
+        // -------- Event Listener --------
+        imageFile.addEventListener('change', function() {
+            const file = this.files[0];
+            const reader = new FileReader();
+
+            reader.addEventListener('load', function() {
+                img.src = reader.result;
+            });
+
+            reader.readAsDataURL(file);
+        });
+    </script>
+</body>
+
+</html>
