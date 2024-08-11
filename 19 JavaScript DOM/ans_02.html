@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Button</title>
+</head>
+
+<body>
+    <h1 id="heading">This is Light Mode</h1>
+    <button id="toggle">Toggle Button</button>
+</body>
+
+<script>
+    h1 = document.getElementById('heading');
+    button = document.getElementById("toggle");
+
+    button.addEventListener("click", () =>{
+        heading.style.color = heading.style.color =="black" ? "white" : "black";
+        document.body.style.backgroundColor = document.body.style.backgroundColor =="white" ? "black" : "white";
+
+        heading.innerText = heading.innerText === "This is Light Mode" ? "This is Dark Mode" : "This is Light Mode";
+    })
+</script>
+
+</html>
