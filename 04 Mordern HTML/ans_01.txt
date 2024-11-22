@@ -1,0 +1,25 @@
+The features of HTML5 are --- 
+
+
+Multimedia Integration :  
+``````````````````````
+1. <audio> and <video> elements:
+These allow embedding audio and video content directly within webpages without needing third-party plugins.
+
+2. <canvas> element: 
+It provides a drawing API that allows dynamic rendering of graphics, animations, and visualizations directly in the browser. 
+
+
+Semantics :
+`````````
+1. HTML5 introduced new structural elements like <header>, <nav>, <article>, <setion>, <footer>, and <aside>, making it easier to define the different parts of a webpage's content. 
+
+
+Form Enhancement :
+````````````````
+1. New input types: HTML5 introduced input types like email, url, number, date, range, and more, offering improved user experience and validation options. 
+
+
+Geolocation :
+```````````
+1. HTML5 provides a Geoloca on API that allows websites to access a user's geographical location with their permission.
