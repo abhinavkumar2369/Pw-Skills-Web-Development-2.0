@@ -1,0 +1,39 @@
+Web accessibility refers to the inclusive practice of designing and developing websites and
+web content in a way that ensures people with disabilities can perceive, understand,
+navigate, and interact with the content effectively.
+
+The goal is to provide equal access and usability to all users, regardless of their abilities. This
+includes individuals with visual, auditory, cognitive, and motor impairments. Web
+accessibility is not only a legal and ethical requirement in many regions but also enhances
+the user experience for everyone.
+
+Assistive devices and technologies play a major role in providing web accessibility by
+enabling people with disabilities to interact with digital content.
+
+
+
+Some of these devices and technologies include:
+
+1. Screen Readers:
+These are software applications that read aloud the content of a web page, making it accessible to individuals with visual impairments. Examples include JAWS, NVDA, and VoiceOver.
+
+2. Screen Magnifiers:
+These tools enlarge portions of the screen, making content more readable for people with low vision.
+
+3. Braille Displays:
+A braille display is a hardware device that converts digital text into braille, allowing users who are blind to read the content through touch.
+
+4. Speech Recognition Software:
+These tools convert spoken language into text, helping users with mobility impairments navigate and interact with web content using voice commands.
+
+5. Keyboard Navigation:
+Some individuals have difficulty using a mouse. Keyboard navigation involves using keyboard shortcuts and tabbing to navigate through web pages.
+
+6. Alternative Input Devices:
+These include devices like mouth sticks, head pointers, and eye-tracking systems, which help individuals with limited motor control interact with web content.
+
+7. Captioning and Transcription:
+For users with hearing impairments, captions and transcripts for audio and video content provide a way to access the information.
+
+8. Text-to-Speech (TTS):
+TTS software reads out text content, aiding individuals who have difficulty reading or comprehending text.
