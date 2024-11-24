@@ -1,0 +1,3 @@
+Tab index is an HTML attribute that determines the order in which elements receive focus when users navigate through a webpage using the "Tab" key.
+It helps ensure a logical and intuitive sequence of keyboard navigation, enhancing web accessibility.
+Setting tab index values allows for better user experience, especially for those who rely on keyboard input.
