@@ -1,0 +1,30 @@
+5 Semantic tags in HTML are --
+
+1. <header>:
+
+Represents the introductory content or a container for a group of introductory elements.
+It often includes a site's logo, navigation, and sometimes a heading.
+
+
+2. <nav> :
+
+Defines a section of navigation links, typically used for menus that lead to
+different parts of the website or related pages.
+
+
+3. <main> :
+
+Signifies the main content of the web page.
+There should be only one <main>' element per page, and it contains the primary content that is unique to that page.
+
+
+4. <article> :
+
+Represents a self-contained piece of content that can be distributed and reused independently.
+It could be a blog post, news article, forum post, etc.
+
+
+5. <footer> :
+
+Defines the footer section of a webpage or a section within a page footer.
+It usually contains copyright information, contact details, and links to related resources.
