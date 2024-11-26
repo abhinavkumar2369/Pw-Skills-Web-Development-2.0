@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="ans_08.css">
+</head>
+<body>
+    <div class="color-picker-container">
+        <h1 class="color-picker-title">Feeling Fancy</h1>
+        <div class="color-grid">
+            <div class="color-card purple" data-color="#8D3DAF">
+                <span class="color-code">#8D3DAF</span>
+            </div>
+            <div class="color-card orange" data-color="#E07C24">
+                <span class="color-code">#E07C24</span>
+            </div>
+            <div class="color-card gray" data-color="#758283">
+                <span class="color-code">#758283</span>
+            </div>
+            <div class="color-card pink" data-color="#E03B8B">
+                <span class="color-code">#E03B8B</span>
+            </div>
+            <div class="color-card coral" data-color="#FF6666">
+                <span class="color-code">#FF6666</span>
+            </div>
+            <div class="color-card turquoise" data-color="#03C6C7">
+                <span class="color-code">#03C6C7</span>
+            </div>
+            <div class="color-card light-gray" data-color="#CAD5E2">
+                <span class="color-code">#CAD5E2</span>
+            </div>
+            <div class="color-card blue" data-color="#35BDD0">
+                <span class="color-code">#35BDD0</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for displaying selected color -->
+    <div class="color-modal" id="colorModal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="selected-color-display" id="selectedColorDisplay"></div>
+            <div class="color-details">
+                <div class="color-value" id="colorValue"></div>
+                <button class="copy-button" onclick="copyToClipboard()">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+    
+    <script srd="ans_08.js"></script>
+</body>
+</html>
