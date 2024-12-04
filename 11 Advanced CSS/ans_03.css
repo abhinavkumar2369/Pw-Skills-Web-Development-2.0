@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+  
+.container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.sticky-note {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #4e98d6 0%, #2271b3 100%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    color: white;
+    position: relative;
+    transition: transform 0.5s ease;
+    transform-origin: center;
+    transform: rotate(-45deg);
+    display: flex;
+    flex-direction: column;
+}
+  
+.sticky-note:hover {
+    transform: rotate(0deg);
+    z-index: 10;
+}
+  
+.note-content {
+    flex: 1;
+}
+  
+.note-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+  
+.note-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+.date-created {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+  
+.note-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+  
+.note-list li {
+    margin-bottom: 5px;
+}
+  
+.mark-done-btn {
+    background-color: #4aea9a;
+    color: #222;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+  
+.normal-note {
+    transform: rotate(0deg);
+}
+  
+@media (max-width: 768px) {
+    .container {
+      gap: 30px;
+    }
+    
+    .sticky-note {
+      width: 250px;
+      height: 250px;
+    }
+}
