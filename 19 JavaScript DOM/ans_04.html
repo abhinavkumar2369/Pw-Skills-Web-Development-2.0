@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="ans_04.js"></script>
+</head>
+
+<body class="bg-gray-800">
+    <h1 class="text-[#fefefe] text-3xl text-center font-bold">Sign Up Form</h1>
+
+    <form class="mx-auto flex flex-col gap-2 w-fit mt-10" action="" method="">
+
+        <div class="flex justify-between">
+            <label for="Name">Name: </label>
+            <input type="text" name="Name" placeholder="( Minimum 3 characters )" >
+        </div>
+
+        <p data-warning-name="For Warning Name" class="text-center text-sm text-red-600 hidden">*Name Must have Atleast 3 Characters*</p>
+
+        <div class="flex justify-between">
+            <label for="Email">Email: </label>
+            <input type="email" name="Email" placeholder="Enter Your Email" >
+        </div>
+        <div class="flex justify-between">
+            <label for="Password">Password: </label>
+            <input type="password" name="Password" placeholder="( Minimum 8 characters)" >
+        </div>
+
+        <p data-warning-password="For Warning Password" class="text-center text-sm text-red-600 hidden">*Password Must Be Atleast 8 Characters Long.</p>
+        
+        <button class="self-start bg-slate-300 border-2 border-gray-700 px-2" type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
