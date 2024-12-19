@@ -1,0 +1,36 @@
+Five challenges of file-based storage tackled by DBMS ---
+
+
+1. Data Redundancy and Inconsistency:
+
+- File-based Problem:The same data is duplicated in multiple files.
+
+-DBMS Solution: Centralized database structure minimizes redundancy through normalization and provides a single source of truth.
+
+
+2. Data Isolation:
+
+- File-based Problem: Data scattered across files makes integrated access difficult.
+
+- DBMS Solution: Relational structures connect related data through keys, allowing complex queries across multiple data entities.
+
+
+3. Data Dependency:
+
+- File-based Problem: Changes in data structure require major application revisions.
+
+- DBMS Solution: Data abstraction and independence separate applications from physical data storage details.
+
+
+4. Concurrent Access Issues:
+
+- File-based Problem: No mechanisms to handle simultaneous access by multiple users.
+
+- DBMS Solution: Transaction management, locking mechanisms, and concurrency control ensure data integrity during simultaneous operations.
+
+
+5. Security Problems:
+
+- File-based Problem: Limited security controls at file level only.
+
+- DBMS Solution: Comprehensive security framework with authentication, authorization, views, and fine-grained access controls.
