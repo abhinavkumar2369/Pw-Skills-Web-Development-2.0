@@ -1,0 +1,28 @@
+A file-based storage system is an approach to data management where data is stored in separate, independent files, each designed for a specific application. Each department in an organization creates and manages its own set of data files.
+
+
+Major Challenges:
+
+Data Redundancy:
+The same data is duplicated across multiple files, wasting storage and creating inconsistencies.
+
+Data Isolation:
+Data in different files and formats makes it difficult to access related information.
+
+Data Dependency:
+Application programs are tightly coupled with file formats, making changes difficult.
+
+Limited Data Sharing:
+Each application has its own files, making data sharing between departments challenging.
+
+Inconsistent Data:
+When data exists in multiple places, updates in one location may not propagate to all instances.
+
+Limited Security:
+Basic file security mechanisms lack sophisticated access control, authentication, and encryption.
+
+No Concurrent Access Control:
+Multiple users attempting to update the same data simultaneously may cause conflicts.
+
+No Recovery Mechanisms:
+Limited or no capability to recover data after system failures.
