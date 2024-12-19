@@ -1,0 +1,25 @@
+A Database Management System (DBMS) is software that manages databases, providing an interface between users and applications to the database. It controls the creation, maintenance, and use of the database structure and its contents.
+
+
+Need for DBMS:
+
+Overcoming File System Limitations:
+DBMS addressed the inherent limitations of file-based systems.
+
+Data Independence:
+DBMS separates data description from applications, allowing modifications to one without affecting the other.
+
+Efficient Data Access:
+DBMS provides optimized methods for data storage and retrieval.
+
+Data Integrity and Security:
+DBMS enforces constraints and provides access control mechanisms.
+
+Concurrent Access:
+DBMS enables multiple users to access data simultaneously without conflicts.
+
+Transaction Management:
+DBMS supports atomicity, consistency, isolation, and durability (ACID properties) for reliable transactions.
+
+Backup and Recovery:
+DBMS includes mechanisms to recover data after hardware or software failures.
