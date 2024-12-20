@@ -1,0 +1,21 @@
+Three-Schema Architecture in DBMS:
+
+    Internal Schema (Physical Schema):
+        Describes how data is stored physically (e.g., file formats, indexing).
+
+    Conceptual Schema (Logical Schema):
+        Defines the logical structure of the data (e.g., tables, relationships) independent of physical storage.
+
+    External Schema (View Schema):
+        Specifies user views, controlling what data users can access.
+
+Advantages:
+
+    Data Independence:
+        Changes in physical or logical structure don’t affect users.
+
+    Security:
+        Tailored views restrict user access to relevant data.
+
+    Simplified Management:
+        Separation of concerns makes database management easier.
