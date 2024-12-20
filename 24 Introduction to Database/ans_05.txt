@@ -1,0 +1,32 @@
+Summary: DBMS Classifications
+
+Major Categories of Database Management Systems
+
+1. Based on Data Model
+- RDBMS: Table-based (MySQL, Oracle)
+- Hierarchical: Tree structure (IBM IMS)
+- Network: Many-to-many relationships (IDS)
+- Object-Oriented: Object storage (ObjectDB)
+- NoSQL:
+    Document-based (MongoDB)
+    Key-value (Redis)
+    Column-oriented (Cassandra)
+    Graph-based (Neo4j)
+
+
+2. Based on Distribution
+- Centralized: Single location storage
+- Distributed: Multiple location storage
+    Homogeneous
+    Heterogeneous
+
+
+3. Based on User Count
+- Single-user: Personal use (SQLite)
+- Multi-user: Enterprise use (Oracle, SQL Server)
+
+
+4. Based on Purpose
+- Operational: Daily transactions
+- Analytical: Complex reporting
+- In-Memory: RAM-based (SAP HANA)
